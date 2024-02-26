@@ -28,12 +28,12 @@ const AdviceCard = () => {
         </p>
         <img
           className='pb-20 md:hidden'
-          src='../../public/img/pattern-divider-mobile.svg'
+          src='../../img/pattern-divider-mobile.svg'
           alt=''
         />
         <img
           className='hidden md:block pb-20'
-          src='../../public/img/pattern-divider-desktop.svg'
+          src='../../img/pattern-divider-desktopgi.svg'
           alt=''
         />
       </section>
@@ -41,7 +41,7 @@ const AdviceCard = () => {
         onClick={handleClick}
         className='duration-200 active:scale-95 bg-green-300 flex justify-center items-center w-14 h-14 rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2  hover:shadow-green-400/70 hover:shadow-[0px_0px_20px_10px_rgba(14,30,37,0.12)]'
       >
-        <img src='../../public/img/icon-dice.svg' alt='dice' />
+        <img src='../../img/icon-dice.svg' alt='dice' />
       </button>
     </article>
   )
