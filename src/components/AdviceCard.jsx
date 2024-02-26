@@ -33,7 +33,7 @@ const AdviceCard = () => {
         />
         <img
           className='hidden md:block pb-20'
-          src='../../img/pattern-divider-desktopgi.svg'
+          src='../../img/pattern-divider-desktop.svg'
           alt=''
         />
       </section>
